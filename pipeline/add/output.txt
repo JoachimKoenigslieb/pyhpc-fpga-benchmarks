@@ -1,0 +1,94 @@
+running sw_emu_kernels.xclbin for inputs sized 32768
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 27068
+UID: 1000
+[Wed Apr 21 16:08:26 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 27070
+UID: 1000
+[Wed Apr 21 16:08:26 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 27072
+UID: 1000
+[Wed Apr 21 16:08:26 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 27074
+UID: 1000
+[Wed Apr 21 16:08:26 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 27076
+UID: 1000
+[Wed Apr 21 16:08:26 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00

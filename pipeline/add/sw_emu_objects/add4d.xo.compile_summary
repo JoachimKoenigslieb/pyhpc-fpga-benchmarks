@@ -1,0 +1,166 @@
+<ENTRY>
+{
+ "thisFile": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/sw_emu_objects/add4d.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Mon Apr 19 16:27:52 2021",
+ "timestampMillis": "1618842472986",
+ "buildStep": {
+  "cmdId": "16b25cfb-5dbd-4a1a-8db5-03b5bd0abcc8",
+  "name": "v++",
+  "logFile": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/_x/add4d/add4d.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2020.1/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -t sw_emu --config design.cfg -c -k add4d -I./src/includes/ -o sw_emu_objects/add4d.xo kernels/add4d.cpp ",
+  "args": [
+   "-t",
+   "sw_emu",
+   "--config",
+   "design.cfg",
+   "-c",
+   "-k",
+   "add4d",
+   "-I./src/includes/",
+   "-o",
+   "sw_emu_objects/add4d.xo",
+   "kernels/add4d.cpp"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/design.cfg",
+    "content": "#platform=xilinx_u200_xdma_201830_2\nplatform=xilinx_u250_xdma_201830_2\ndebug=1\nsave-temps=0\n"
+   }
+  ],
+  "cwd": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Apr 19 16:27:52 2021",
+ "timestampMillis": "1618842472987",
+ "status": {
+  "cmdId": "16b25cfb-5dbd-4a1a-8db5-03b5bd0abcc8",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Mon Apr 19 16:28:14 2021",
+ "timestampMillis": "1618842494030",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_xdma_201830_2.xpfm",
+  "hardwareDsa": "xilinx_u250_xdma_201830_2.dsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u250_xdma_201830_2",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_SW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "add4d",
+     "file": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/sw_emu_objects/add4d.xo",
+     "reports": []
+    },
+    "sources": [
+     "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/kernels/add4d.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS"
+   }
+  ],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Mon Apr 19 16:28:14 2021",
+ "timestampMillis": "1618842494033",
+ "buildStep": {
+  "cmdId": "51b329f6-9278-4acd-8d21-1e2a90ec65d1",
+  "name": "vitis_hls",
+  "logFile": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/_x/add4d/add4d/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/_x/add4d/add4d/add4d.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/_x/add4d/add4d/add4d.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Apr 19 16:28:14 2021",
+ "timestampMillis": "1618842494034",
+ "status": {
+  "cmdId": "51b329f6-9278-4acd-8d21-1e2a90ec65d1",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Apr 19 16:28:25 2021",
+ "timestampMillis": "1618842505891",
+ "status": {
+  "cmdId": "51b329f6-9278-4acd-8d21-1e2a90ec65d1",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Apr 19 16:28:26 2021",
+ "timestampMillis": "1618842506081",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/_x/reports/add4d/v++_compile_add4d_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Mon Apr 19 16:28:26 2021",
+ "timestampMillis": "1618842506082",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/_x/v++_compile_add4d_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Mon Apr 19 16:28:26 2021",
+ "timestampMillis": "1618842506082",
+ "status": {
+  "cmdId": "16b25cfb-5dbd-4a1a-8db5-03b5bd0abcc8",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
