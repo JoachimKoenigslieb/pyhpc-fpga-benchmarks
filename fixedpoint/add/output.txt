@@ -1,13 +1,291 @@
 running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+Command terminated by signal 2
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+Command terminated by signal 2
+real 0.02
+user 0.02
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 25459371
+computed result on FPGA matches on host
+real 5.03
+user 0.00
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 64
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 21054085
+computed result on FPGA matches on host
+real 5.02
+user 0.01
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 27619034
+computed result on FPGA matches on host
+real 5.03
+user 0.01
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 512
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 34646359
+computed result on FPGA matches on host
+real 5.04
+user 0.02
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 18190299
+computed result on FPGA matches on host
+real 5.04
+user 0.03
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 19393862
+computed result on FPGA matches on host
+real 5.05
+user 0.04
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 31858037
+computed result on FPGA matches on host
+real 5.19
+user 0.17
+sys 0.04
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 32446127
+computed result on FPGA matches on host
+real 5.19
+user 0.18
+sys 0.03
+
+running sw_emu_kernels.xclbin for inputs sized 64
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27044
+PID: 17449
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:48:13 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/fixedpoint/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17469
+UID: 1000
+[Thu Apr 22 18:48:13 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17823
+UID: 1000
+[Thu Apr 22 18:50:05 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17843
+UID: 1000
+[Thu Apr 22 18:50:05 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17920
+UID: 1000
+[Thu Apr 22 18:50:35 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17940
+UID: 1000
+[Thu Apr 22 18:50:35 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18255
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18275
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18295
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -22,11 +300,11 @@ XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27046
+PID: 18315
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/fixedpoint/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -36,16 +314,16 @@ real 0.00
 user 0.00
 sys 0.00
 
-running sw_emu_kernels.xclbin for inputs sized 32768
+running sw_emu_kernels.xclbin for inputs sized 262144
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27048
+PID: 18335
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/fixedpoint/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -55,16 +333,16 @@ real 0.00
 user 0.00
 sys 0.00
 
-running sw_emu_kernels.xclbin for inputs sized 32768
+running sw_emu_kernels.xclbin for inputs sized 2097152
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27050
+PID: 18355
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/fixedpoint/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -74,16 +352,16 @@ real 0.00
 user 0.00
 sys 0.00
 
-running sw_emu_kernels.xclbin for inputs sized 32768
+running sw_emu_kernels.xclbin for inputs sized 16777216
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27052
+PID: 18375
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/fixedpoint/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -92,3 +370,122 @@ Command exited with non-zero status 1
 real 0.00
 user 0.00
 sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 134217728
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18395
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/fixedpoint/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 18174715
+computed result on FPGA matches on host
+real 5.03
+user 0.02
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 512
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 18588089
+computed result on FPGA matches on host
+real 5.03
+user 0.03
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 15975545
+computed result on FPGA matches on host
+real 5.05
+user 0.03
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 33687655
+computed result on FPGA matches on host
+real 5.19
+user 0.19
+sys 0.02
+
+running sw_emu_kernels.xclbin for inputs sized 262144
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 166088258
+computed result on FPGA matches on host
+real 6.23
+user 1.25
+sys 0.16
+
+running sw_emu_kernels.xclbin for inputs sized 2097152
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+INFO: Kernel 'add4d' has been created
+time: 1143150988
+computed result on FPGA matches on host
+real 14.48
+user 9.96
+sys 1.06
+
+running sw_emu_kernels.xclbin for inputs sized 16777216
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+Command terminated by signal 2
+real 38.13
+user 37.98
+sys 0.14
+
+running sw_emu_kernels.xclbin for inputs sized 134217728
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 438621
+Command terminated by signal 2
+real 0.44
+user 0.41
+sys 0.02

@@ -6,6 +6,7 @@
 #include <iostream>
 #include <xcl2/xcl2.cpp>
 #include <runKernels.h>
+#include <chrono>
 
 class ArgParser
 {
@@ -95,11 +96,15 @@ int main(int argc, const char *argv[])
 
 	inputs = {arg0, arg1}; 
 	outputs = {res_compute};
+
+	auto t0 = std::chrono::high_resolution_clock::now();
 	run_broadcast_kernel("add4d", inputs, outputs, 
 		{X, Y, Z,}, 		{X, Y, Z,}, 		{X, Y, Z,},
 		{0, 0, 0,}, 		{0, 0, 0,}, 		{0, 0, 0,},
 		{0, 0, 0,}, 		{0, 0, 0,}, 		{0, 0, 0,},
 devices, context, bins, q);
+	auto t1 = std::chrono::high_resolution_clock::now();
+	std::cout << "time: " << std::chrono::duration_cast<std::chrono::nanoseconds>(t1-t0).count() << std::endl;
 
 	return 0;
 }

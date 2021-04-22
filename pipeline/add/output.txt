@@ -1,13 +1,387 @@
 running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+ERROR: [EMU 60-600] chmod -R 777 /home/joachim/Documents/speciale/benchmarks/pipeline/add/.run/15733/sw_emu/device0/binary_0 Exception Caught - Failed with the error code 2. PLEASE CHECK YOUR PERMISSIONS 
+Command exited with non-zero status 1
+real 0.01
+user 0.01
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27068
+PID: 15739
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:40:07 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x7f0fee6d4010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f0fee693010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f0fee611010' detected, this leads to extra memcpy
+Command terminated by signal 2
+real 0.03
+user 0.01
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 16398
+UID: 1000
+[Thu Apr 22 18:44:09 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x55e4ac712390' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x55e4ac725a30' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x55e4ac714410' detected, this leads to extra memcpy
+time: 16893201
+computed result on FPGA matches on hostreal 5.02
+user 0.01
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 16417
+UID: 1000
+[Thu Apr 22 18:44:14 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x55ed4b97a390' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x55ed4b98da30' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x55ed4b97c410' detected, this leads to extra memcpy
+time: 18816065
+computed result on FPGA matches on hostreal 5.02
+user 0.01
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 16651
+UID: 1000
+[Thu Apr 22 18:44:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x5557b4495470' detected, this leads to extra memcpy
+time: 24861907
+computed result on FPGA matches on hostreal 5.03
+user 0.01
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 512
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 16681
+UID: 1000
+[Thu Apr 22 18:44:54 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x560a9a5f7470' detected, this leads to extra memcpy
+time: 24889237
+computed result on FPGA matches on hostreal 5.04
+user 0.02
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 16853
+UID: 1000
+[Thu Apr 22 18:45:29 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x555cb19d42d0' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x555cb1a0d020' detected, this leads to extra memcpy
+time: 20839089
+computed result on FPGA matches on hostreal 5.03
+user 0.01
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 16872
+UID: 1000
+[Thu Apr 22 18:45:34 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x561ac66682d0' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x561ac66a1020' detected, this leads to extra memcpy
+time: 28380662
+computed result on FPGA matches on hostreal 5.04
+user 0.01
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17090
+UID: 1000
+[Thu Apr 22 18:46:10 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x7f07e4b04010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f07e4ac3010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f07e4a41010' detected, this leads to extra memcpy
+time: 23100021
+computed result on FPGA matches on hostreal 5.04
+user 0.02
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17121
+UID: 1000
+[Thu Apr 22 18:46:15 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x7f818db7c010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f818db3b010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f818dab9010' detected, this leads to extra memcpy
+time: 25910135
+computed result on FPGA matches on hostreal 5.05
+user 0.01
+sys 0.03
+
+running sw_emu_kernels.xclbin for inputs sized 64
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17459
+UID: 1000
+[Thu Apr 22 18:48:13 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17479
+UID: 1000
+[Thu Apr 22 18:48:13 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17833
+UID: 1000
+[Thu Apr 22 18:50:05 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17853
+UID: 1000
+[Thu Apr 22 18:50:05 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17930
+UID: 1000
+[Thu Apr 22 18:50:35 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 17950
+UID: 1000
+[Thu Apr 22 18:50:35 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18265
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 512
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18285
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18305
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -22,11 +396,11 @@ XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27070
+PID: 18325
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -36,16 +410,16 @@ real 0.00
 user 0.00
 sys 0.00
 
-running sw_emu_kernels.xclbin for inputs sized 32768
+running sw_emu_kernels.xclbin for inputs sized 262144
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27072
+PID: 18345
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -55,16 +429,16 @@ real 0.00
 user 0.00
 sys 0.00
 
-running sw_emu_kernels.xclbin for inputs sized 32768
+running sw_emu_kernels.xclbin for inputs sized 2097152
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27074
+PID: 18365
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -74,16 +448,16 @@ real 0.00
 user 0.00
 sys 0.00
 
-running sw_emu_kernels.xclbin for inputs sized 32768
+running sw_emu_kernels.xclbin for inputs sized 16777216
 XRT build version: 2.6.655
 Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
 Build date: 2020-05-22 12:05:03
 Git branch: 2020.1
-PID: 27076
+PID: 18385
 UID: 1000
-[Wed Apr 21 16:08:26 2021]
+[Thu Apr 22 18:52:49 2021]
 HOST: joachim-ThinkPad-L570
-EXE: /home/joachim/Documents/speciale/vitis/veros-port/benchmarks/pipeline/add/host
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
 [XRT] ERROR: XILINX_XRT must be set
@@ -92,3 +466,198 @@ Command exited with non-zero status 1
 real 0.00
 user 0.00
 sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 134217728
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18405
+UID: 1000
+[Thu Apr 22 18:52:49 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+[XRT] ERROR: XILINX_XRT must be set
+Error: Failed to find Xilinx platform
+Command exited with non-zero status 1
+real 0.00
+user 0.00
+sys 0.00
+
+running sw_emu_kernels.xclbin for inputs sized 64
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18554
+UID: 1000
+[Thu Apr 22 18:53:25 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x564204250390' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x564204263a30' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x564204252410' detected, this leads to extra memcpy
+time: 16540963
+computed result on FPGA matches on hostreal 5.03
+user 0.02
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 512
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18733
+UID: 1000
+[Thu Apr 22 18:53:45 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x5565b3bed470' detected, this leads to extra memcpy
+time: 16177511
+computed result on FPGA matches on hostreal 5.03
+user 0.02
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 4096
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18861
+UID: 1000
+[Thu Apr 22 18:54:06 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x55d771b0b2d0' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x55d771b44020' detected, this leads to extra memcpy
+time: 18886134
+computed result on FPGA matches on hostreal 5.03
+user 0.01
+sys 0.01
+
+running sw_emu_kernels.xclbin for inputs sized 32768
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 18989
+UID: 1000
+[Thu Apr 22 18:54:26 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x7fdddbd3f010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7fdddbcfe010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7fdddbc7c010' detected, this leads to extra memcpy
+time: 22558739
+computed result on FPGA matches on hostreal 5.03
+user 0.01
+sys 0.02
+
+running sw_emu_kernels.xclbin for inputs sized 262144
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 19117
+UID: 1000
+[Thu Apr 22 18:54:48 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x7ff0e6a5a010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7ff0e6859010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7ff0e6457010' detected, this leads to extra memcpy
+time: 57075920
+computed result on FPGA matches on hostreal 5.08
+user 0.04
+sys 0.05
+
+running sw_emu_kernels.xclbin for inputs sized 2097152
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 19279
+UID: 1000
+[Thu Apr 22 18:55:21 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x7f7b9a9d7010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f7b999d6010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7f7b979d4010' detected, this leads to extra memcpy
+time: 257306830
+computed result on FPGA matches on hostreal 5.33
+user 0.17
+sys 0.22
+
+running sw_emu_kernels.xclbin for inputs sized 16777216
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+INFO: Kernel 'add4d' has been created
+XRT build version: 2.6.655
+Build hash: 2d6bfe4ce91051d4e5b499d38fc493586dd4859a
+Build date: 2020-05-22 12:05:03
+Git branch: 2020.1
+PID: 19425
+UID: 1000
+[Thu Apr 22 18:56:12 2021]
+HOST: joachim-ThinkPad-L570
+EXE: /home/joachim/Documents/speciale/benchmarks/pipeline/add/host
+[XRT] WARNING: unaligned host pointer '0x7fa209b18010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7fa201b17010' detected, this leads to extra memcpy
+[XRT] WARNING: unaligned host pointer '0x7fa1f1b15010' detected, this leads to extra memcpy
+Command terminated by signal 2
+real 0.41
+user 0.13
+sys 0.26
+
+running sw_emu_kernels.xclbin for inputs sized 134217728
+Found Platform
+Platform Name: Xilinx
+INFO: Importing sw_emu_kernels.xclbin
+Loading: 'sw_emu_kernels.xclbin'
+tellg: 139661
+Command terminated by signal 2
+real 0.33
+user 0.12
+sys 0.21

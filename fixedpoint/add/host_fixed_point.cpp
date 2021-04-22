@@ -8,6 +8,7 @@
 
 #include <runKernelsFixed.h>
 #include "ap_fixed.h"
+#include <chrono>
 
 typedef ap_ufixed<19, 11> data_in;
 typedef ap_ufixed<20, 12> data_out;
@@ -138,12 +139,16 @@ int main(int argc, const char *argv[])
 
 	inputs = {arg0_fixed, arg1_fixed}; 
 	outputs = {res_compute};
+
+	auto t0 = std::chrono::high_resolution_clock::now();
 	run_broadcast_kernel("add4d", inputs, outputs, 
 		{X, Y, Z,}, 		{X, Y, Z,}, 		{X, Y, Z,},
 		{0, 0, 0,}, 		{0, 0, 0,}, 		{0, 0, 0,},
 		{0, 0, 0,}, 		{0, 0, 0,}, 		{0, 0, 0,},
 devices, context, bins, q);
 
+	auto t1 = std::chrono::high_resolution_clock::now();
+	std::cout << "time: " << std::chrono::duration_cast<std::chrono::nanoseconds>(t1-t0).count() << std::endl;
 	check_result(res, res_compute, X*Y*Z);
 
 	return 0;
