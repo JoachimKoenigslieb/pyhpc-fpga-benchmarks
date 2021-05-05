@@ -10,11 +10,11 @@
 #include "data_copyer.cpp"
 
 void compute(double local_A[TILE_SIZE], double local_B[TILE_SIZE], double local_out[TILE_SIZE], int A_stride, int B_stride){
-	#pragma HLS inline off // what tis does is a bit complicated. (i think it basicly pastes the hardware)
+	#pragma HLS inline off // this makes sure that we create a structure for the function.
 	int A_ind, B_ind; // free potimization: this int can be wayyyy smaller (4 bits actually, depends on TILE SIZE)
 	
 	for (int l=0; l<8; l++){
-		#pragma HLS pipeline II=1
+		#pragma HLS unroll
 		A_ind = l*A_stride;
 		B_ind = l*B_stride;
 
@@ -28,7 +28,7 @@ void write(
 	int* out_scaled_stride,
 	int out_lin_offset)
 {
-	#pragma HLS inline off // what tis does is a bit complicated. (i think it basicly pastes the hardware)
+	#pragma HLS inline off // this makes sure that we create a structure for the function.
 
 	int out_ind_offset = l_tile + i*out_scaled_stride[0] + j*out_scaled_stride[1] + k*out_scaled_stride[2] + out_lin_offset;
 	memcpy_wide_bus_write_double(out + out_ind_offset, local_out, 0, 8 * sizeof(double));
@@ -126,6 +126,7 @@ void add4d(uint512_dt* A, uint512_dt* B, uint512_dt* out, int* strides_offsets_o
 
 	for (int i=out_offset[0]; i<(out_shape[0] + out_end_offset[0]); i++){
 		for (int j=out_offset[1]; j<(out_shape[1] + out_end_offset[1]); j++){
+			#pragma pipeline
 			for (int k=out_offset[2]; k<(out_shape[2] + out_end_offset[2]); k++){
 				// we tile innermost loop
 				for (int l_tile=0; l_tile<l_tiles; l_tile++){
