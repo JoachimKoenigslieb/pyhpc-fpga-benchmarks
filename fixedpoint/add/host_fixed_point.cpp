@@ -148,7 +148,7 @@ int main(int argc, const char *argv[])
 devices, context, bins, q);
 
 	auto t1 = std::chrono::high_resolution_clock::now();
-	std::cout << "time: " << std::chrono::duration_cast<std::chrono::nanoseconds>(t1-t0).count() << std::endl;
+	std::cout << "time: " << std::chrono::duration_cast<std::chrono::nanoseconds>(t1-t0).count() << std::endl; 
 	check_result(res, res_compute, X*Y*Z);
 
 	return 0;
