@@ -1,4 +1,4 @@
-folders="baseline fixedpoint packed pipeline"
+folders="fixedpoint packed packed_unroll"
 
 target="sw_emu"
 
