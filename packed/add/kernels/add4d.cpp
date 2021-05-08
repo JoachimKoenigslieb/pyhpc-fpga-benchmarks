@@ -14,7 +14,6 @@ void compute(double local_A[TILE_SIZE], double local_B[TILE_SIZE], double local_
 	int A_ind, B_ind; // free potimization: this int can be wayyyy smaller (4 bits actually, depends on TILE SIZE)
 	
 	for (int l=0; l<8; l++){
-		#pragma HLS unroll
 		A_ind = l*A_stride;
 		B_ind = l*B_stride;
 
@@ -126,7 +125,6 @@ void add4d(uint512_dt* A, uint512_dt* B, uint512_dt* out, int* strides_offsets_o
 
 	for (int i=out_offset[0]; i<(out_shape[0] + out_end_offset[0]); i++){
 		for (int j=out_offset[1]; j<(out_shape[1] + out_end_offset[1]); j++){
-			#pragma pipeline
 			for (int k=out_offset[2]; k<(out_shape[2] + out_end_offset[2]); k++){
 				// we tile innermost loop
 				for (int l_tile=0; l_tile<l_tiles; l_tile++){

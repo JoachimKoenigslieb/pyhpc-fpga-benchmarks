@@ -213,3 +213,6 @@ dismissMenu((HResource) null, "File"); // aa (q, ct)
 // WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
 // WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
 // WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
