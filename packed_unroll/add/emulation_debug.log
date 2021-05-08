@@ -1,0 +1,28 @@
+INFO: [HW-EM 01] Hardware emulation runs simulation underneath. Using a large data set will result in long simulation times. It is recommended that a small dataset is used for faster execution. The flow uses approximate models for DDR memory and interconnect and hence the performance data generated is approximate.
+INFO::[ Vitis-EM 22 ] [Time elapsed: 0 minute(s) 19 seconds, Emulation time: 0.007977 ms]
+Data transfer between kernel(s) and global memory(s)
+add4d_1:m_axi_gmem0-DDR[0]          RD = 0.000 KB               WR = 0.000 KB        
+add4d_1:m_axi_gmem1-DDR[0]          RD = 0.000 KB               WR = 0.000 KB        
+add4d_1:m_axi_gmem2-DDR[0]          RD = 0.000 KB               WR = 0.000 KB        
+add4d_1:m_axi_plmem0-DDR[0]          RD = 0.359 KB               WR = 0.000 KB        
+
+INFO: [HW-EM 06-0] Waiting for the simulator process to exit
+INFO: [HW-EM 06-1] All the simulator processes exited successfully
+Compute Units: Running Time and Stalls
+Compute Unit, Running Time (us), Intra-Kernel Dataflow Stalls (%), External Memory Stalls (%), External Stream Stalls (%)
+add4d_1,1.207,0.000,6.906,0.000
+
+Functions: Running Time and Stalls
+Compute Unit, Function, Running Time (us), Intra-Kernel Dataflow Stalls (%), External Memory Stalls (%), External Stream Stalls (%)
+add4d_1,grp_compute_fu_1216,1.207,0.000,0.000,0.000
+add4d_1,grp_read_1_fu_1238,7.980,0.000,0.000,0.000
+add4d_1,grp_write_1_fu_1346,7.980,0.000,0.000,0.000
+
+Compute Units: Port Data Transfer
+Compute Unit, Port, Write Time (us), Outstanding Write (%), Read Time (us), Outstanding Read (%)
+add4d_1,m_axi_gmem0,0.000,0.000,0.000,0.000
+add4d_1,m_axi_gmem1,0.000,0.000,0.000,0.000
+add4d_1,m_axi_gmem2,0.000,0.000,0.000,0.000
+add4d_1,m_axi_plmem0,0.000,0.000,0.280,23.204
+
+

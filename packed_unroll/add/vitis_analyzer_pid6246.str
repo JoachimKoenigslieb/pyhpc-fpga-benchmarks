@@ -1,0 +1,215 @@
+/*
+
+Xilinx Vitis Analyzer v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:35 MDT 2020
+
+Process ID (PID): 6246
+License: Customer
+
+Current time: 	Sat May 08 14:18:12 CEST 2021
+Time zone: 	Central European Standard Time (Europe/Copenhagen)
+
+OS: Ubuntu
+OS Version: 4.15.0-142-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :1
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	joachim
+User home directory: /home/joachim
+User working directory: /home/joachim/Documents/speciale/benchmarks/packed_unroll/add
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.1
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.1/bin
+
+Vitis Analyzer preferences file location: /home/joachim/.Xilinx/vitis_analyzer/2020.1/vitis_analyzer.xml
+Vitis Analyzer preferences directory: /home/joachim/.Xilinx/vitis_analyzer/2020.1/
+Vitis Analyzer layouts directory: /home/joachim/.Xilinx/vitis_analyzer/2020.1/data/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vitis/2020.1/lib/classes/frank.jar
+Vitis Analyzer log file location: 	/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/vitis_analyzer.log
+Vitis Analyzer journal file location: 	/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/vitis_analyzer.jou
+Engine tmp dir: 	./.Xil/vitis_analyzer-6246-joachim-ThinkPad-L570
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+XILINX_XRT: /opt/xilinx/xrt
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,407 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Command: 'create_project dummy'
+// TclEventType: PROJECT_NEW
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/vitis/veros-port/speedup_dev_build/hw_emu_objects/add4d.xo.compile_summary}
+// WARNING: HEventQueue.dispatchEvent() is taking  1196 ms.
+// e (ct):  Restoring Previous Session : addNotify
+// Tcl Message: create_project dummy 
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed/add/hw_emu_objects/add4d.xo.compile_summary}
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed/add/hw_emu_kernels.xclbin.link_summary}
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed/add/sw_emu_objects/add4d.xo.compile_summary}
+// [GUI Memory]: 67 MB (+67885kb) [00:00:13]
+// [Engine Memory]: 1,370 MB (+1285147kb) [00:00:13]
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_objects/add4d.xo.compile_summary}
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/sw_emu_objects/add4d.xo.compile_summary}
+dismissDialog("Restoring Previous Session"); // e (ct)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,412 MB. GUI used memory: 54 MB. Current time: 5/8/21, 2:18:13 PM CEST
+// Opening Report: Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/vitis/veros-port/speedup_dev_build/hw_emu_objects/add4d.xo.compile_summary}
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 24 seconds
+selectTree("Report Navigator Tree", "[root]", 5, true); // b (J, ct) - Node
+selectMenu("File"); // aa (q, ct)
+selectMenuItem((HResource) null, "Open Summary..."); // ai (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+setFileChooser("/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary");
+// bz (ct):  Open Summary : addNotify
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+dismissDialog("Open Summary"); // bz (ct)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,455 MB. GUI used memory: 55 MB. Current time: 5/8/21, 2:18:43 PM CEST
+selectTree("Report Navigator Tree", "[root, Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/vitis/veros-port/speedup_dev_build/hw_emu_objects/add4d.xo.compile_summary}]", 1, false); // b (J, ct)
+selectTree("Report Navigator Tree", "[root]", 0, true); // b (J, ct) - Node
+selectMenu("File"); // aa (q, ct)
+selectMenuItem((HResource) null, "Open Summary..."); // ai (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+setFileChooser("/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary");
+// bz (ct):  Open Summary : addNotify
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+// 'e' command handler elapsed time: 3 seconds
+// [GUI Memory]: 91 MB (+21908kb) [00:00:54]
+// [Engine Memory]: 1,458 MB (+20114kb) [00:00:54]
+dismissDialog("Open Summary"); // bz (ct)
+selectMenu("File"); // aa (q, ct)
+selectMenu("Open Report"); // aa (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Recent"); // c (ct)
+selectMenuItem(FrankCommandResource.FrankCommand_CLOSE_ALL_FILES, "Close All Files"); // ai (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+// Run Command: FrankCommandResource.FrankCommand_CLOSE_ALL_FILES
+// bz (ct):  Close All Files : addNotify
+// Tcl Command: 'close_project'
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,459 MB. GUI used memory: 55 MB. Current time: 5/8/21, 2:18:57 PM CEST
+closeView((HResource) null, "Summary"); // c
+closeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "add4d (Hardware Emulation)"); // d
+// Tcl Command: 'create_project dummy'
+// TclEventType: PROJECT_NEW
+// Opening Report: Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed/add/hw_emu_kernels.xclbin.link_summary}
+// Opening Report: Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+// [GUI Memory]: 111 MB (+15717kb) [00:00:59]
+// Tcl Message: close_project 
+// Tcl Message: create_project dummy 
+closeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "hw_emu_kernels (Hardware Emulation)"); // d
+closeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "hw_emu_kernels (Hardware Emulation)"); // d
+// Tcl Command: 'close_project'
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,461 MB. GUI used memory: 55 MB. Current time: 5/8/21, 2:18:58 PM CEST
+// Tcl Message: close_project 
+dismissDialog("Close All Files"); // bz (ct)
+selectMenu("File"); // aa (q, ct)
+selectMenuItem((HResource) null, "Open Summary..."); // ai (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+setFileChooser("/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary");
+// Tcl Command: 'create_project dummy'
+// TclEventType: PROJECT_NEW
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+// bz (ct):  Open Summary : addNotify
+// Tcl Message: create_project dummy 
+// [GUI Memory]: 117 MB (+727kb) [00:01:06]
+dismissDialog("Open Summary"); // bz (ct)
+// Opening Report: Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 20 seconds
+selectButton((HResource) null, "System Guidance"); // l (Q, ct)
+// Opening Report: Type{value=SYSTEM_GUIDANCE_REPORT},SummaryFile{file=hw_emu_kernels.xclbin.link_summary isArchive=false},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/v++_link_hw_emu_kernels_guidance.pb}
+// t (ct): Missing Report File: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (t)
+dismissDialog("Missing Report File"); // t (ct)
+selectTree("Report Navigator Tree", "[root, Type{value=KERNEL_ESTIMATE_REPORT},SummaryFile{file=add4d.xo.compile_summary isArchive=false},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/reports/add4d/system_estimate_add4d.xtxt}]", 8, false); // b (J, ct)
+// t (ct): Missing Report File: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (t)
+dismissDialog("Missing Report File"); // t (ct)
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 12 seconds
+closeView((HResource) null, "Summary"); // c
+// Tcl Command: 'close_project'
+// TclEventType: PROJECT_CLOSE
+closeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "hw_emu_kernels (Hardware Emulation)"); // d
+// HMemoryUtils.trashcanNow. Engine heap size: 1,467 MB. GUI used memory: 55 MB. Current time: 5/8/21, 2:19:44 PM CEST
+// Tcl Message: close_project 
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 97 seconds
+selectMenu("File"); // aa (q, ct)
+selectMenuItem((HResource) null, "Open Summary..."); // ai (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+// Elapsed time: 10 seconds
+dismissFileChooser();
+// 'e' command handler elapsed time: 10 seconds
+selectMenu("File"); // aa (q, ct)
+selectMenu("Open Report"); // aa (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Recent"); // c (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Report"); // aa (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Report"); // aa (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+// Opening XclBin: XclBin{file=/home/joachim/Documents/speciale/vitis/hw_test/build/hw_emu_kernels.xclbin}
+// Running: '/opt/xilinx/xrt/bin/xclbinutil --force --input /home/joachim/Documents/speciale/vitis/hw_test/build/hw_emu_kernels.xclbin --dump-section SYSTEM_METADATA:RAW:/tmp/vitis_analyzer_joachim14351110958473598492/-1936855859/system_metadata.json --dump-section :JSON:/tmp/vitis_analyzer_joachim14351110958473598492/-1936855859/xclbin_metadata.json' in /tmp/vitis_analyzer_joachim14351110958473598492/-1936855859
+// bz (ct):  Open Binary Container : addNotify
+// Tcl Command: 'create_project dummy'
+// TclEventType: PROJECT_NEW
+// Elapsed time: 14 seconds
+dismissDialog("Open Binary Container"); // bz (ct)
+// Tcl Message: create_project dummy 
+// Opening Report: Type{value=XCLBIN_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/vitis/hw_test/build/hw_emu_kernels.xclbin}
+selectMenu("File"); // aa (q, ct)
+selectMenu("Open Report"); // aa (ct)
+selectMenu("Open Report"); // aa (ct)
+selectMenu("Open Recent"); // c (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Report"); // aa (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Recent"); // c (ct)
+selectMenu("Compile Summary"); // aa (ct)
+selectMenu("Link Summary"); // aa (ct)
+selectMenu("Report"); // aa (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.

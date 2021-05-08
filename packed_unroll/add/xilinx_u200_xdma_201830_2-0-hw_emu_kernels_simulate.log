@@ -1,0 +1,614 @@
+#-----------------------------------------------------------
+# xsim v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Sat May  8 14:20:43 2021
+# Process ID: 6572
+# Current directory: /home/joachim/Documents/speciale/benchmarks/packed_unroll/add/.run/6510/hw_em/device0/binary_0/behav_waveform/xsim
+# Command line: xsim -log simulate.log -mode tcl -source {xsim.dir/emu_wrapper_behav/xsim_script.tcl}
+# Log file: /home/joachim/Documents/speciale/benchmarks/packed_unroll/add/.run/6510/hw_em/device0/binary_0/behav_waveform/xsim/simulate.log
+# Journal file: /home/joachim/Documents/speciale/benchmarks/packed_unroll/add/.run/6510/hw_em/device0/binary_0/behav_waveform/xsim/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/emu_wrapper_behav/xsim_script.tcl
+# xsim {emu_wrapper_behav} -wdb {xilinx_u200_xdma_201830_2-0-hw_emu_kernels.wdb} -autoloadwcfg -tclbatch {emu_wrapper.tcl} -key {Behavioral:sim_1:Functional:emu_wrapper} -protoinst {protoinst_files/bd_3a93.protoinst} -protoinst {protoinst_files/emu.protoinst} -protoinst {./dr_behav.protoinst}
+Vivado Simulator 2020.1
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_hub.inst.s_aximm_wr_util. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_hub.inst.s_aximm_wr_util_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.rd_mon.rd_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.rd_mon.rd_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.wr_mon.wr_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.wr_mon.wr_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.mon_saxi_rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.mon_saxi_rd_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.mon_saxi_wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon0.inst.mon_saxi_wr_socket_0
+In file: sc_object_manager.cpp:161
+
+Info: (I804) /IEEE_Std_1666/deprecated: sc_sensitive_neg is deprecated use sc_sensitive << with neg() instead
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.rd_mon.rd_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.rd_mon.rd_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.wr_mon.wr_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.wr_mon.wr_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.mon_saxi_rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.mon_saxi_rd_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.mon_saxi_wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon1.inst.mon_saxi_wr_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.rd_mon.rd_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.rd_mon.rd_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.wr_mon.wr_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.wr_mon.wr_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.mon_saxi_rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.mon_saxi_rd_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.mon_saxi_wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon2.inst.mon_saxi_wr_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.rd_mon.rd_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.rd_mon.rd_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.wr_mon.wr_skt. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.wr_mon.wr_skt_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.mon_saxi_rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.mon_saxi_rd_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.mon_saxi_wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.System_DPA.dpa_mon3.inst.mon_saxi_wr_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_1
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_1
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_2
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_2
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_3
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_3
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_4
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_4
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_5
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_5
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_6
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_6
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_7
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_7
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_8
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_8
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_9
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_9
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.rd_socket_10
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket. Latter declaration will be renamed to .emu_wrapper.emu_i.memory_subsystem.inst.wr_socket_10
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.master_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.master_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.master_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.master_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_wr_1. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_wr_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_rd_1. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_0.inst.axi_crossbar_model.slave_skt_rd_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_0.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_0.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.master_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.master_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.master_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.master_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_wr_1. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_wr_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_rd_1. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_2.inst.axi_crossbar_model.slave_skt_rd_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_2.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_2.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.master_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.master_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.master_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.master_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_wr_1. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_wr_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_rd_1. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_3.inst.axi_crossbar_model.slave_skt_rd_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.sim_ddr_3.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util. Latter declaration will be renamed to .emu_wrapper.emu_i.sim_ddr_3.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.master_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.master_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.master_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.master_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_wr_0. Latter declaration will be renamed to .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_wr_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_rd_0. Latter declaration will be renamed to .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_rd_0_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_wr_1. Latter declaration will be renamed to .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_wr_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_rd_1. Latter declaration will be renamed to .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.axi_crossbar_model.slave_skt_rd_1_0
+In file: sc_object_manager.cpp:161
+
+Warning: (W505) object already exists: .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util. Latter declaration will be renamed to .emu_wrapper.emu_i.static_region.sim_ddr_1.inst.ddrx_top_tlm_model_0.axi_app_tlm_model_0.rd_skt_util_0
+In file: sc_object_manager.cpp:161
+
+Info: (I804) /IEEE_Std_1666/deprecated: sc_sensitive_pos is deprecated use sc_sensitive << with pos() instead
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_3a93.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/bd_3a93.protoinst for the following reason(s):
+There are no instances of module "bd_3a93" in the design.
+
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/emu.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/S_AXIMM
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m00_couplers/auto_cc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m00_couplers/auto_cc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m00_couplers/m00_regslice/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m00_couplers/m00_regslice/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m01_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m01_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m01_couplers/auto_cc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m01_couplers/auto_cc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m01_couplers/m01_regslice/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/m01_couplers/m01_regslice/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/s00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/s00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/s00_couplers/s00_regslice/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/s00_couplers/s00_regslice/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/xbar/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/xbar/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_ctrl_interconnect/xbar/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/S_AXIFIFO
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/S_AXIHUB
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/S_AXIMM
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_0
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_2
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_3
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_4
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_5
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_6
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_hub/TRACE_IN_7
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon0/TRACE_OUT_0
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon0/TRACE_OUT_1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon1/TRACE_OUT_0
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon1/TRACE_OUT_1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon2/TRACE_OUT_0
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon2/TRACE_OUT_1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon3/TRACE_OUT_0
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//System_DPA/dpa_mon3/TRACE_OUT_1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//add4d_1/m_axi_gmem0
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//add4d_1/m_axi_gmem1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//add4d_1/m_axi_gmem2
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//add4d_1/m_axi_plmem0
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//add4d_1/s_axi_control
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/M02_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/M03_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S02_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S03_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S04_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S05_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S06_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//memory_subsystem/S07_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//sim_ddr_0/C0_DDR_SAXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//sim_ddr_2/C0_DDR_SAXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//sim_ddr_3/C0_DDR_SAXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/M00_AXI1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/S00_AXI1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/icn_pass_0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/icn_pass_0/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m00_couplers/auto_pc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m00_couplers/auto_pc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/auto_cc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/auto_cc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/auto_pc/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/auto_pc/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/m01_regslice/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/m01_couplers/m01_regslice/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/s00_couplers/M_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/s00_couplers/S_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/xbar/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/xbar/M01_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr0/interconnect_axilite_user_0/xbar/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/M00_AXI1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/S00_AXI1
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/S00_AXI2
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/icn_pass_1/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/icn_pass_1/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/icn_pass_2/M00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/icn_pass_2/S00_AXI
+INFO: [Wavedata 42-564]   Found protocol instance at /emu_wrapper/emu_i//slr1/interconnect_axilite_user_1/M00_AXI
+INFO: [Common 17-14] Message 'Wavedata 42-564' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Wavedata 42-565] Reading protoinst file ./dr_behav.protoinst
+Time resolution is 1 ps
+source emu_wrapper.tcl
+## if { [info exists ::env(USER_PRE_SIM_SCRIPT) ] } {
+##   source $::env(USER_PRE_SIM_SCRIPT)
+## }
+## if { [info exists ::env(VITIS_WAVEFORM) ] } {
+##   if {[file exists $::env(VITIS_WAVEFORM)] == 1} {
+##     open_wave_config $::env(VITIS_WAVEFORM)
+##   }
+## }
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_compute_fu_1216/ap_ext_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_compute_fu_1216/ap_str_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/ap_ext_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/ap_str_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/ap_ext_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/ap_str_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/ap_ext_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/ap_str_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_ARADDR was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_ARLEN was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_ARVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_ARREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_RDATA was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_RVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_RREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_RLAST was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_AWADDR was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_AWLEN was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_AWVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_AWREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_WDATA was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_WVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_WREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem0_WLAST was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_ARADDR was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_ARLEN was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_ARVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_ARREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_RDATA was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_RVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_RREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_RLAST was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_AWADDR was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_AWLEN was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_AWVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_AWREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_WDATA was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_WVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_WREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/m_axi_gmem1_WLAST was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/i was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/j was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/k was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/l_tile was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_stride was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_stride was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_lin_offset was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_lin_offset was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_offset_0 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_scaled_stride_0 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_offset_1 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_scaled_stride_1 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_offset_2 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/A_scaled_stride_2 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_offset_0 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_scaled_stride_0 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_offset_1 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_scaled_stride_1 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_offset_2 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_read_1_fu_1238/B_scaled_stride_2 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/ap_ext_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/ap_str_blocking_n was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_ARADDR was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_ARLEN was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_ARVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_ARREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_RDATA was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_RVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_RREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_RLAST was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_AWADDR was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_AWLEN was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_AWVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_AWREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_WDATA was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_WVALID was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_WREADY was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/m_axi_gmem2_WLAST was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/out_r was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read1 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read2 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read3 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read4 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read5 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read6 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/p_read7 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/i was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/j was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/k was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/l_tile was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/out_lin_offset was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/out_scaled_stride_0 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/out_scaled_stride_1 was not found in the design.
+WARNING: Simulation object /emu_wrapper/emu_i/add4d_1/inst/grp_write_1_fu_1346/out_scaled_stride_2 was not found in the design.
+## if { [file exists preprocess_profile.tcl] } {
+##   source -notrace preprocess_profile.tcl
+## }
+## puts "We are running Simulator for infinite time. Added some default signals in the waveform. You can pause simulation and add signals and then resume the simulaion again."
+We are running Simulator for infinite time. Added some default signals in the waveform. You can pause simulation and add signals and then resume the simulaion again.
+## puts ""
+
+## puts "Stopping at breakpoint in simulator also stops the host code execution"
+Stopping at breakpoint in simulator also stops the host code execution
+## puts ""
+
+## if { [info exists ::env(VITIS_LAUNCH_WAVEFORM_GUI) ] } {
+##   run 1ns
+## } else {
+##   run all
+## }
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+WARNING: Behavioral models for independent clock FIFO configurations do not model synchronization delays. The behavioral models are functionally correct, and will represent the behavior of the configured FIFO. See the FIFO Generator User Guide for more information.
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U35/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U36/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U37/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U38/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U39/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U40/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U41/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 001XXXX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 7343135 ps  Iteration: 12  Process: /emu_wrapper/emu_i/add4d_1/U0/grp_compute_fu_1216/dadd_64ns_64ns_64_8_full_dsp_0_U42/add4d_ap_dadd_6_full_dsp_64_u/U0/i_synth/addsub_op/ADDSUB/logic_speed/OP/ALIGN_BLK/FRAC_ADDSUB/dsp_add/FRAC_ADDSUB/i_no_versal_es1_workaround/dsp48e1_add/DSP48E1_ADD/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2020.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+$stop called at time : 7979929 ps : File "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/sim/emu.v" Line 8777
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 2517.898 ; gain = 0.000 ; free physical = 6035 ; free virtual = 13441
+## if { [file exists profile.tcl] } {
+##   source -notrace profile.tcl
+## }
+Waiting for protocol analyzers to complete...
+Done!
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.dataflowTxWaveData.OutStanding
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_0
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_1
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_2
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_3
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_4
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_5
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_6
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_7
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_8
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_9
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_10
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_11
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_12
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_13
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_14
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_15
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_16
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_17
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_18
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_19
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_20
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_21
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_22
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_23
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_24
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_25
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_26
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_27
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_28
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_29
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_30
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_31
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_32
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_33
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_34
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_35
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_36
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_37
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_38
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_39
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_40
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_41
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_42
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_43
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_44
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_45
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_46
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_47
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_48
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_49
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_50
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_51
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_52
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_53
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_54
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_55
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_56
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_57
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_58
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_59
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_60
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_61
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_62
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_read_1_fu_1238/grp_read_1_fu_1238.iterationsWave_63
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.dataflowTxWaveData.OutStanding
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_0
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_1
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_2
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_3
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_4
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_5
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_6
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_7
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_8
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_9
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_10
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_11
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_12
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_13
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_14
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_15
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_16
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_17
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_18
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_19
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_20
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_21
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_22
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_23
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_24
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_25
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_26
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_27
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_28
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_29
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_30
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_31
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_32
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_33
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_34
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_35
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_36
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_37
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_38
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_39
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_40
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_41
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_42
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_43
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_44
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_45
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_46
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_47
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_48
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_49
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_50
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_51
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_52
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_53
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_54
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_55
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_56
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_57
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_58
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_59
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_60
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_61
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_62
+Unable to find signal: /emu_wrapper/emu_i/add4d_1/U0/grp_write_1_fu_1346/grp_write_1_fu_1346.iterationsWave_63
+## if { [info exists ::env(VITIS_LAUNCH_WAVEFORM_BATCH) ] } {
+##   if { [info exists ::env(USER_POST_SIM_SCRIPT) ] } {
+##     source $::env(USER_POST_SIM_SCRIPT)
+##   }
+##   quit
+## }
+INFO: [Common 17-206] Exiting xsim at Sat May  8 14:21:11 2021...

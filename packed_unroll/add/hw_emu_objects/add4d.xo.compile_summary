@@ -1,0 +1,231 @@
+<ENTRY>
+{
+ "thisFile": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_objects/add4d.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Sat May  8 12:22:08 2021",
+ "timestampMillis": "1620469328964",
+ "buildStep": {
+  "cmdId": "e5df6fce-1423-4592-8a06-c48d987a27ce",
+  "name": "v++",
+  "logFile": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/add4d/add4d.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2020.1/bin/unwrapped/lnx64.o/v++  --xp \"vivado_prop:run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --xp \"misc:report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -t hw_emu --config design.cfg -c -k add4d -I.//includes/ -o hw_emu_objects/add4d.xo kernels/add4d.cpp ",
+  "args": [
+   "-t",
+   "hw_emu",
+   "--config",
+   "design.cfg",
+   "-c",
+   "-k",
+   "add4d",
+   "-I.//includes/",
+   "-o",
+   "hw_emu_objects/add4d.xo",
+   "kernels/add4d.cpp"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/design.cfg",
+    "content": "#platform=xilinx_u200_xdma_201830_2\nplatform=xilinx_u250_xdma_201830_2\ndebug=1\nsave-temps=0\n"
+   }
+  ],
+  "cwd": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat May  8 12:22:08 2021",
+ "timestampMillis": "1620469328965",
+ "status": {
+  "cmdId": "e5df6fce-1423-4592-8a06-c48d987a27ce",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Sat May  8 12:22:30 2021",
+ "timestampMillis": "1620469350713",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u250_xdma_201830_2.xpfm",
+  "hardwareDsa": "xilinx_u250_xdma_201830_2.dsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u250_xdma_201830_2",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW_EMU",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "add4d",
+     "file": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_objects/add4d.xo",
+     "reports": []
+    },
+    "sources": [
+     "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/kernels/add4d.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS"
+   }
+  ],
+  "toolVersion": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Sat May  8 12:22:30 2021",
+ "timestampMillis": "1620469350718",
+ "buildStep": {
+  "cmdId": "e2cb7e9d-d8ee-476d-a13a-b3a65eae84be",
+  "name": "vitis_hls",
+  "logFile": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/add4d/add4d/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/add4d/add4d/add4d.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/add4d/add4d/add4d.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat May  8 12:22:30 2021",
+ "timestampMillis": "1620469350719",
+ "status": {
+  "cmdId": "e2cb7e9d-d8ee-476d-a13a-b3a65eae84be",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat May  8 12:28:41 2021",
+ "timestampMillis": "1620469721734",
+ "status": {
+  "cmdId": "e2cb7e9d-d8ee-476d-a13a-b3a65eae84be",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May  8 12:28:41 2021",
+ "timestampMillis": "1620469721787",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/add4d/add4d/add4d/solution/.autopilot/db/add4d.design.xml",
+  "name": "add4d",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May  8 12:28:41 2021",
+ "timestampMillis": "1620469721787",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/add4d/add4d/add4d/solution/.autopilot/db/.message_syn.xml",
+  "name": "add4d",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May  8 12:28:41 2021",
+ "timestampMillis": "1620469721797",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/reports/add4d/hls_reports/add4d_csynth.rpt",
+  "name": "add4d",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May  8 12:28:41 2021",
+ "timestampMillis": "1620469721797",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/add4d/add4d/add4d/solution/syn/report/add4d_csynth.xml",
+  "name": "add4d",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May  8 12:28:41 2021",
+ "timestampMillis": "1620469721814",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/reports/add4d/system_estimate_add4d.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May  8 12:28:42 2021",
+ "timestampMillis": "1620469722582",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/reports/add4d/v++_compile_add4d_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Sat May  8 12:28:42 2021",
+ "timestampMillis": "1620469722583",
+ "report": {
+  "path": "/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/v++_compile_add4d_guidance.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Sat May  8 12:28:42 2021",
+ "timestampMillis": "1620469722583",
+ "status": {
+  "cmdId": "e5df6fce-1423-4592-8a06-c48d987a27ce",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>

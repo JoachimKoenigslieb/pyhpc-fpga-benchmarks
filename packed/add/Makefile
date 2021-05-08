@@ -1,6 +1,6 @@
 KERNEL_DIR := ./kernels
 OBJ_DIR := ./objects
-TARGET := sw_emu
+TARGET := hw_emu
 
 SRC_DIR := ./
 KERNEL_INCLUDES := -I${SRC_DIR}/includes/

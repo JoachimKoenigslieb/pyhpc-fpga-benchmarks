@@ -1,0 +1,298 @@
+/*
+
+Xilinx Vitis Analyzer v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:35 MDT 2020
+
+Process ID (PID): 19691
+License: Customer
+
+Current time: 	Sat May 08 11:49:14 CEST 2021
+Time zone: 	Central European Standard Time (Europe/Copenhagen)
+
+OS: Ubuntu
+OS Version: 4.15.0-142-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :1
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4
+Java executable location: 	/tools/Xilinx/Vitis/2020.1/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	joachim
+User home directory: /home/joachim
+User working directory: /home/joachim/Documents/speciale/benchmarks/packed_unroll/add
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /tools/Xilinx/Vitis
+HDI_APPROOT: /tools/Xilinx/Vitis/2020.1
+RDI_DATADIR: /tools/Xilinx/Vitis/2020.1/data
+RDI_BINDIR: /tools/Xilinx/Vitis/2020.1/bin
+
+Vitis Analyzer preferences file location: /home/joachim/.Xilinx/vitis_analyzer/2020.1/vitis_analyzer.xml
+Vitis Analyzer preferences directory: /home/joachim/.Xilinx/vitis_analyzer/2020.1/
+Vitis Analyzer layouts directory: /home/joachim/.Xilinx/vitis_analyzer/2020.1/data/layouts
+PlanAhead jar file location: 	/tools/Xilinx/Vitis/2020.1/lib/classes/frank.jar
+Vitis Analyzer log file location: 	/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/vitis_analyzer.log
+Vitis Analyzer journal file location: 	/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/vitis_analyzer.jou
+Engine tmp dir: 	./.Xil/vitis_analyzer-19691-joachim-ThinkPad-L570
+
+Xilinx Environment Variables
+----------------------------
+XILINX_DSP: 
+XILINX_PLANAHEAD: /tools/Xilinx/Vitis/2020.1
+XILINX_SDK: /tools/Xilinx/Vitis/2020.1
+XILINX_VITIS: /tools/Xilinx/Vitis/2020.1
+XILINX_VIVADO: /tools/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: /tools/Xilinx/Vivado/2020.1
+XILINX_XRT: /opt/xilinx/xrt
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,373 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// Tcl Command: 'create_project dummy'
+// TclEventType: PROJECT_NEW
+// WARNING: HEventQueue.dispatchEvent() is taking  1540 ms.
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/vitis/veros-port/speedup_dev_build/hw_emu_objects/add4d.xo.compile_summary}
+// e (ct):  Restoring Previous Session : addNotify
+// Tcl Message: create_project dummy 
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed/add/hw_emu_objects/add4d.xo.compile_summary}
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed/add/hw_emu_kernels.xclbin.link_summary}
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed/add/sw_emu_objects/add4d.xo.compile_summary}
+// [GUI Memory]: 88 MB (+89746kb) [00:00:17]
+// [Engine Memory]: 1,367 MB (+1281714kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,383 MB. GUI used memory: 55 MB. Current time: 5/8/21, 11:49:15 AM CEST
+dismissDialog("Restoring Previous Session"); // e (ct)
+selectMenu("File"); // aa (q, ct)
+// Opening Report: Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/vitis/veros-port/speedup_dev_build/hw_emu_objects/add4d.xo.compile_summary}
+selectMenu("Open Report"); // aa (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Recent"); // c (ct)
+selectMenu("Open File"); // aa (ct)
+selectMenu("Open Report"); // aa (ct)
+selectMenuItem(FrankCommandResource.FrankCommand_OPEN_DIRECTORY, "Open Directory..."); // ai (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+// Run Command: FrankCommandResource.FrankCommand_OPEN_DIRECTORY
+setFolderChooser("/home/joachim/Documents/speciale/benchmarks/packed_unroll/add");
+// bz (ct):  Open Directory : addNotify
+// 'b' command handler elapsed time: 6 seconds
+// [GUI Memory]: 111 MB (+19475kb) [00:00:30]
+// a (ct): Open Directory: addNotify
+dismissDialog("Open Directory"); // bz (ct)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,425 MB. GUI used memory: 58 MB. Current time: 5/8/21, 11:49:30 AM CEST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (a)
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+dismissDialog("Open Directory"); // a (ct)
+// e (ct):  Opening Files : addNotify
+closeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "add4d (Hardware Emulation)"); // d
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_objects/add4d.xo.compile_summary}
+// Opening Summary: Type{value=COMPILE_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/sw_emu_objects/add4d.xo.compile_summary}
+dismissDialog("Opening Files"); // e (ct)
+// Opening Report: Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/vitis/veros-port/speedup_dev_build/hw_emu_objects/add4d.xo.compile_summary}
+// [Engine Memory]: 1,442 MB (+6920kb) [00:00:36]
+collapseTree("Report Navigator Tree", "[root]", 5); // b (J, ct)
+expandTree("Report Navigator Tree", "[root]", 5); // b (J, ct)
+selectTree("Report Navigator Tree", "[root, Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}]", 6, false); // b (J, ct)
+// Opening Report: Type{value=BUILD_SUMMARY_REPORT},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+selectButton((HResource) null, "System Guidance"); // l (Q, ct)
+// Opening Report: Type{value=SYSTEM_GUIDANCE_REPORT},SummaryFile{file=hw_emu_kernels.xclbin.link_summary isArchive=false},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/v++_link_hw_emu_kernels_guidance.pb}
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 987 seconds
+closeView((HResource) null, "System Guidance"); // Q
+// HMemoryUtils.trashcanNow. Engine heap size: 1,477 MB. GUI used memory: 58 MB. Current time: 5/8/21, 12:06:26 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// Elapsed time: 484 seconds
+selectMenu("File"); // aa (q, ct)
+selectMenuItem((HResource) null, "Open Summary..."); // ai (ct)
+dismissMenu((HResource) null, "File"); // aa (q, ct)
+setFileChooser("/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary");
+// Opening Summary: Type{value=LINK_SUMMARY},SummaryFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/hw_emu_kernels.xclbin.link_summary}
+// bz (ct):  Open Summary : addNotify
+dismissDialog("Open Summary"); // bz (ct)
+selectButton((HResource) null, "System Guidance"); // l (Q, ct)
+// Opening Report: Type{value=SYSTEM_GUIDANCE_REPORT},SummaryFile{file=hw_emu_kernels.xclbin.link_summary isArchive=false},ReportFile{file=/home/joachim/Documents/speciale/benchmarks/packed_unroll/add/_x/v++_link_hw_emu_kernels_guidance.pb}
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,487 MB. GUI used memory: 58 MB. Current time: 5/8/21, 12:33:51 PM CEST
